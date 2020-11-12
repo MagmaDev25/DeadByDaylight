@@ -1,0 +1,23 @@
+#############################################################
+titles:
+  activated: true
+  fadeIn: 2
+  stay: 15
+  fadeOut: 3
+  #YOU CAN GET THE SOUND OUT OF HERE--
+  #https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  soundWhenTitle: "BLOCK_NOTE_BLOCK_PLING"
+  #This titles only are shown in gamestart countdown
+  #The titles placeholder is %secs%, this replaces it with the second on that moment
+  titlesOnSeconds:
+    #This title is for seconds 20,15,10,5
+    onSeconds:
+      title: "&1Game starts in &d%secs%&1 seconds!"
+      subtitle: "&2¡Prepare!"
+    countdownUnderFive:
+      title: "&1Game starts in &d%secs%&1 second/s!"
+      subtitle: "&2¡Prepare!"
+    #THIS IS ON 0 SECONDS
+    onStart:
+      title: "¡&5Start!"
+      subtitle: " "

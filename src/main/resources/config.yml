@@ -1,0 +1,7 @@
+#The time to start is the time
+#to start the game when there are more
+#players than the config path playersToStart
+timeToStart: 20
+playersToStart: 1
+#This is the String that will appear when the time is not running....
+stateOfSeconds: "&7Waiting..."

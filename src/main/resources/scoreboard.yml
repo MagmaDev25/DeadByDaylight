@@ -1,0 +1,17 @@
+####################################################
+
+scoreboardTitle: "&6Scoreboard"
+
+
+scoreboardBeforeGame:
+  - "&cLOL"
+  - "&cSECS: &2%secs%"
+  - "&6a"
+  - "&2Name: &d%player%"
+  - "&4IDO"
+
+scoreboardIngame:
+  - "a"
+  - "b"
+  - "v"
+  - "g"
